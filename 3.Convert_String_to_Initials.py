@@ -7,6 +7,3 @@ def abbrev_name(name):
     for word in first_middle_last:
         initial = initial+word[0].upper()+"."
     return initial[:-1]
-
-name = input("Please input a string: ")
-print ("Here are your initials: " + abbrev_name(name))
